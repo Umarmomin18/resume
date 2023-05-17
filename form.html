@@ -4,18 +4,23 @@
 <style>
     div {text-align: center;}
 </style>
-<form >
+<form action="/form.php" method="get" >
     <div><label for="username">Username</label>
-    <input type="Username" placeholder="entre username"></div><br>
+    <input type="Username" name="username" placeholder="entre username" value="username" id="username"></div><br>
     <div><label for="password">Password</label>
-    <input type="password" placeholder="entre password"></div></div><br>
+    <input type="password" name="password" placeholder="entre password" value="password" id="password"></div></div><br>
     <div><label for="Email">Email</label>
-    <input type="email" placeholder="entre email"></div><br>
+    <input type="email" name="email" placeholder="entre email" value="email" id="email"></div><br>
     <div><label for="phone no">phone number</label>
-    <input type="phone number" placeholder="entre phone number"></div><br>
+    <input type="phone number" name="phone number" placeholder="entre phone number" value="phone number" id="phone number
+    " ></div><br>
+    <div> <label for="male">Male</label>
+    <input type="radio" name="gender" id="male" value="male">
+    <label for="female">female</label>
+    <input type="radio" name="gender" id="female" value="female"></div>
     
     <div><label for="Description">Description</label>
-        <input type="Description">
+        <textarea name="Description" id="" cols="30" rows="10"></textarea>
 
     </div><br>
     <div><button><a href="https://www.shutterstock.com/image-vector/thank-you-hand-drawn-lettering-260nw-1263463690.jpg">submit</a></button></div>
